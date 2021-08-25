@@ -1,0 +1,30 @@
+@keyframes cf3FadeInOut {
+    0% {
+        opacity:0;
+  }
+  50% {
+        opacity:1;
+  }
+  100%{
+        opacity: 0;
+  }
+  }
+  .conimg {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  opacity: 1;
+  }
+
+  .coni1{
+      background-image: url("images/1.jpg");
+  }
+
+  .coni2{
+    background-image: url("images/2.jpg");
+}
+
+.coni3{
+    background-image: url("images/3.jpg");
+}
